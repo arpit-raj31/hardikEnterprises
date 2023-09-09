@@ -1,0 +1,170 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the product entries */
+.product {
+    margin: 20px 0;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Style the contact section */
+#contact1 {
+    background-color:#007acc;
+    
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style the form labels */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Style the form input fields */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Style the form submit button */
+form input[type="submit"] {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the form submit button on hover */
+form input[type="submit"]:hover {
+    background-color: #005ea6;
+}
+
+/* Style form validation error messages */
+form .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+/* CSS for the "Click Me" button */
+.call-now-button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Button style on hover */
+.ccall-now-button:hover {
+    background-color: #005ea6;
+}
+
